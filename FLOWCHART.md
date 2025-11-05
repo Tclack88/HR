@@ -622,19 +622,3 @@ MultiDeviceManager
         ├── Thread for Device #2
         └── Thread for Device #3
 
-CompactHeartRateGUI
-    │
-    ├── manager: MultiDeviceManager
-    │   └── [manages all devices]
-    │
-    ├── device_frames: Dict
-    │   ├── 1: Frame (Device 1 panel)
-    │   ├── 2: Frame (Device 2 panel)
-    │   └── 3: Frame (Device 3 panel)
-    │
-    └── plot_data: Dict
-        ├── 1: {'time': [], 'hr': []}
-        ├── 2: {'time': [], 'hr': []}
-        └── 3: {'time': [], 'hr': []}
-```
-
